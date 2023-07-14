@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Quiz</title>
+    <link rel="stylesheet" href="quizstyles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>Online Quiz</h1>
+      <div class="sections">
+        <button class="section-btn" onclick="loadGeneralKnowledge()">
+          General Knowledge
+        </button>
+        <button class="section-btn" onclick="loadHistory()">History</button>
+        <button class="section-btn" onclick="loadCricket()">Cricket</button>
+      </div>
+      <div class="quiz">
+        <h2 id="question">Questions</h2>
+        <div id="answer-buttons"></div>
+        <div id="timer"></div>
+        <button id="next-btn">Next</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
